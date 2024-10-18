@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main(int argc[], char argv[]){
+int main(int argc, char *argv[]){
     char ch;
     char ultimo;
     int caracteres, palavras, linhas;
