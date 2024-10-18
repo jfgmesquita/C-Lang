@@ -2,39 +2,39 @@
 #include <stdlib.h>
 
 int countBits(unsigned long num) {
-    int conta = 0;
+    int count = 0;
 
-    while (num) {
-        // Incrementa o contador se o bit menos significativo for 1
+    while(num) {
+        // Increment the counter if the least significant bit is 1
         if(num & 1) {
-            conta++;
+            count++;
         }
-        // Desloca o número para a direita para verificar o próximo bit
+        // Shift the number to the right to check the next bit
         num >>= 1;
     }
 
-    return conta;
+    return count;
 }
 
 int main(int argc, char *argv[]) {
     unsigned long num = 0;
 
-    if (argc < 2) {
-        printf("Uso: %s <número inteiro>\n", argv[0]);
+    if(argc < 2) {
+        printf("Usage: %s <integer number>\n", argv[0]);
         return 1;
     }
 
     char *endptr;
     num = strtol(argv[1], &endptr, 16);
 
-    // Verifica se a conversão foi bem-sucedida
-    if (endptr && *endptr != '\0') {
-        printf("Erro: '%s' não é um número hexadecimal válido.\n", argv[1]);
-        return 1; // Retorna um código de erro
+    // Check if the conversion was successful
+    if(endptr && *endptr != '\0') {
+        printf("Error: '%s' is not a valid hexadecimal number.\n", argv[1]);
+        return 1; // Return an error code
     }
 
-    int bitsLigados = countBits(num);
-    printf("O número %ld tem %d bits ligados.\n", num, bitsLigados);
+    int setBits = countBits(num);
+    printf("The number %ld has %d set bits.\n", num, setBits);
 
     return 0;
 }
