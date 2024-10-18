@@ -47,8 +47,9 @@ The number 6719 has 8 set bits.
 ```
 
 Clean Up:
-To remove the compiled files and clean the directory, run:
 
 ```sh
 make clean
 ```
+
+###### This will remove the compiled files and clean the directory.
