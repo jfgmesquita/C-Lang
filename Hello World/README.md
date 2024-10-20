@@ -3,6 +3,7 @@
 This program prints "Hello, World!" to the standard output. The source code is in the file `hw.c`.
 
 ## Files
+
 - `hw.c`: The source code for the Hello World program.
 - `Makefile`: The Makefile to compile and clean the program.
 

@@ -3,6 +3,7 @@
 This program counts the number of lines, words, and characters in a given file. The source code is in the file `wc.c`.
 
 ## Files
+
 - `wc.c`: The source code for the word count program.
 - `Makefile`: The Makefile to compile and clean the program.
 

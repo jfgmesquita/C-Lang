@@ -3,6 +3,7 @@
 This program prints each command-line argument passed to it. The source code is in the file `ea.c`.
 
 ## Files
+
 - `ea.c`: The source code for the Each Argument program.
 - `Makefile`: The Makefile to compile and clean the program.
 

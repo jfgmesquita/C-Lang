@@ -3,6 +3,7 @@
 This program counts the number of set bits (1s) in a given hexadecimal number. The source code is in the file `bc.c`.
 
 ## Files
+
 - `bc.c`: The source code for the bit count program.
 - `Makefile`: The Makefile to compile and clean the program.
 
