@@ -1,14 +1,14 @@
 # Each Argument Program
 
-This program prints each command-line argument passed to it. The source code is in the file `each_arg.c`.
+This program prints each command-line argument passed to it. The source code is in the file `ea.c`.
 
 ## Files
-- `each_arg.c`: The source code for the Each Argument program.
+- `ea.c`: The source code for the Each Argument program.
 - `Makefile`: The Makefile to compile and clean the program.
 
 ## Compilation
 
-To compile the program, open a terminal and navigate to the directory containing `each_arg.c` and the `Makefile`. Run the following command:
+To compile the program, open a terminal and navigate to the directory containing `ea.c` and the `Makefile`. Run the following command:
 
 ```sh
 make
