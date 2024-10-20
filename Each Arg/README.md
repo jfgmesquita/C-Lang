@@ -43,9 +43,10 @@ Run the Program:
 Output:
 
 ```sh
-Argument 1: arg1
-Argument 2: arg2
-Argument 3: arg3
+argv[0] = ./ea
+argv[1] = arg1
+argv[2] = arg2
+argv[3] = arg3
 ```
 
 Clean Up:
