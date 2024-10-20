@@ -14,14 +14,14 @@ To compile the program, open a terminal and navigate to the directory containing
 make
 ```
 
-This will compile the source code and generate an executable named each_arg.
+This will compile the source code and generate an executable named ea.
 
 ## Usage
 
 After compiling the program, you can run it by providing command-line arguments. For example:
 
 ```sh
-./each_arg arg1 arg2 arg3
+./ea arg1 arg2 arg3
 ```
 
 This will output each argument on a new line.
@@ -37,7 +37,7 @@ make
 Run the Program:
 
 ```sh
-./each_arg arg1 arg2 arg3
+./ea arg1 arg2 arg3
 ```
 
 Output:
