@@ -8,9 +8,9 @@ int main(void){
 
   a = b = c += 5;
 
-  disp( a );
-  disp( b );
-  disp( c );
+  disp(a);
+  disp(b);
+  disp(c);
 
   return 0;
 }
