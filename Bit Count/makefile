@@ -7,4 +7,4 @@ bc: bc.o
 	cc bc.o -o bc
 
 clean:
-	@rm -f *.o bc
+	rm -f bc.o bc
