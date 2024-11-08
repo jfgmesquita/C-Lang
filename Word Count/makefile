@@ -7,4 +7,4 @@ wc: wc.o
 	cc wc.o -o wc
 
 clean:
-	@rm -f *.o wc
+	rm -f wc.o wc
