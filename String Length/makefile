@@ -7,4 +7,4 @@ sl: sl.o
 	cc sl.o -o sl
 
 clean:
-	@rm -f *.o sl
+	rm -f sl.o sl
