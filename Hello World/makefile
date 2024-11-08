@@ -7,4 +7,4 @@ hw: hw.o
 	cc hw.o -o hw
 
 clean:
-	@rm -f *.o hw
+	rm -f hw.o hw
