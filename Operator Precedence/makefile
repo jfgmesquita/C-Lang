@@ -7,4 +7,4 @@ op: op.o
 	cc op.o -o op
 
 clean:
-	@rm -f *.o op
+	rm -f op.o op
