@@ -7,4 +7,4 @@ ea: ea.o
 	cc ea.o -o ea
 
 clean:
-	@rm -f *.o ea
+	rm -f ea.o ea
