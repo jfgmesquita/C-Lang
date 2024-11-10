@@ -8,11 +8,11 @@ all: program
 # -g: To generate debugging information
 # -o: To specify the output file name
 program.o: program.c
-	cc -c -g program.c -o program.o
+	gcc -c -g program.c -o program.o
 
 # Linking the object file (program.o) to generate the executable file (program)
 program: program.o
-	cc program.o -o program
+	gcc program.o -o program
 
 # Cleaning generated files
 clean:
