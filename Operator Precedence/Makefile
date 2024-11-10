@@ -1,10 +1,10 @@
 all: op
 
 op.o: op.c
-	cc -c -g op.c -o op.o
+	gcc -c -g op.c -o op.o
 
 op: op.o
-	cc op.o -o op
+	gcc op.o -o op
 
 clean:
 	rm -f op.o op
