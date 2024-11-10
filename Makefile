@@ -4,7 +4,7 @@
 all: program
 
 # Compiling the source file (program.c) to generate the object file (program.o)
-# -c: To compile and assemble the source file, but do not link
+# -c: To compile and assemble the source file, but not to link
 # -g: To generate debugging information
 # -o: To specify the output file name
 program.o: program.c
