@@ -1,10 +1,10 @@
 all: ea
 
 ea.o: ea.c
-	cc -c -g ea.c -o ea.o
+	gcc -c -g ea.c -o ea.o
 
 ea: ea.o
-	cc ea.o -o ea
+	gcc ea.o -o ea
 
 clean:
 	rm -f ea.o ea
