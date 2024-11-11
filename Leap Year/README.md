@@ -44,13 +44,13 @@ Run the Program:
 Output:
 
 ```sh
+0 -> ERROR: The number can only be a positive integer.
 1900 -> No
 2000 -> Yes
 -2022 -> ERROR: The number can only be a positive integer.
 20.23 -> ERROR: The number can only be a positive integer.
 2023 -> No
 2024 -> Yes
-0 -> ERROR: The number can only be a positive integer.
 ```
 
 Clean Up:
