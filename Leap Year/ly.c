@@ -3,9 +3,11 @@
 #define IS_LEAP(year) ((((year % 4) == 0) && ((year % 100) != 0)) || ((year % 400) == 0))
 
 int main(int argc, char *argv[]) {
+    int exit = 0;
+
     if(argc < 2) {
         printf("Usage: %s <year> [<year> ...]\n", argv[0]);
-        return 1;
+        return 10;
     }
 
     unsigned long int i, num;
@@ -14,6 +16,7 @@ int main(int argc, char *argv[]) {
     for(i = 1; i < argc; i++) {
         if(*argv[i] == '-') {
             printf("%s -> ERROR: The number can only be a positive integer.\n", argv[i]);
+            exit = 10;
             continue;
         }
 
@@ -21,6 +24,7 @@ int main(int argc, char *argv[]) {
 
         if(*endptr != '\0' || num == 0) {
             printf("%s -> ERROR: The number can only be a positive integer.\n", argv[i]);
+            exit = 10;
         } else {
             if(IS_LEAP(num)) {
                 printf("%lu -> Yes\n", num);
@@ -30,5 +34,5 @@ int main(int argc, char *argv[]) {
         }
     }
     
-    return 0;
+    return exit;
 }
