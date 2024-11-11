@@ -1,6 +1,6 @@
 # Word Count Program
 
-This program counts the number of lines, words, and characters in a given file. The source code is in the file `wc.c`.
+This program counts the number of lines, words and characters in a given file. The source code is in the file `wc.c`.
 
 ## Files
 
@@ -25,7 +25,7 @@ After compiling the program, you can run it by providing a file as input. For ex
 ./wc < wc.c
 ```
 
-Then type or paste the text you want to count, and press Ctrl+D (on Linux) to signal the end of input.
+This will output the number of lines, words and characters in the given file.
 
 ## Example
 
