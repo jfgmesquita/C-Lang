@@ -5,13 +5,13 @@ int main(int argc, char *argv[]) {
     char lastChar = ' ';
     int characters = 0, words = 0, lines = 0;
 
-    while ((ch = getchar()) != EOF) {
+    while((ch = getchar()) != EOF) {
         characters++;
 
-        if (ch == '\n') {
+        if(ch == '\n') {
             lines++;
         }
-        if ((lastChar == ' ' || lastChar == '\n' || lastChar == '\t') && (ch != ' ' && ch != '\n' && ch != '\t')) {
+        if((lastChar == ' ' || lastChar == '\n' || lastChar == '\t') && (ch != ' ' && ch != '\n' && ch != '\t')) {
             words++;
         }
         lastChar = ch;
