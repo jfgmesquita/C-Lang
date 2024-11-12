@@ -10,10 +10,10 @@ int main(int argc, char *argv[]) {
         return 10;
     }
 
-    unsigned long int i, num;
+    unsigned long int num;
     char *endptr;
 
-    for(i = 1; i < argc; i++) {
+    for(int i = 1; i < argc; i++) {
         if(*argv[i] == '-') {
             printf("%s -> ERROR: The number can only be a positive integer.\n", argv[i]);
             exit = 10;
