@@ -34,7 +34,12 @@ int main(int argc, char *argv[]) {
     }
 
     int setBits = countBits(num);
-    printf("The number %ld has %d set bits.\n", num, setBits);
+    
+    if(setBits == 1) {
+        printf("The number %ld has 1 set bit.\n", num);
+    } else {
+        printf("The number %ld has %d set bits.\n", num, setBits);
+    }
 
     return 0;
 }
