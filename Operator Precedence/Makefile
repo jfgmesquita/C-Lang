@@ -6,5 +6,7 @@ op.o: op.c
 op: op.o
 	gcc op.o -o op
 
+run: op
+
 clean:
 	rm -f op.o op
