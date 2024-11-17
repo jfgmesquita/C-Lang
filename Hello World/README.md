@@ -1,44 +1,28 @@
 # Hello World Program
 
-This program prints "Hello, World!" to the standard output. The source code is in the file `hw.c`.
+This program prints "Hello, World!" to the standard output.
 
 ## Files
 
 - `hw.c`: The source code for the Hello World program.
-- `Makefile`: The Makefile to compile and clean the program.
+- `Makefile`: The Makefile to compile and run the program.
 
-## Compilation
+## Compilation and Usage
 
-To compile the program, open a terminal and navigate to the directory containing `hw.c` and the `Makefile`. Run the following command:
-
-```sh
-make
-```
-
-This will compile the source code and generate an executable named hw.
-
-## Usage
-
-After compiling the program, you can run it by executing the following command:
+To compile and run the program, open a terminal and navigate to the directory containing `hw.c` and the `Makefile`. Run the following command:
 
 ```sh
-./hw
+make run
 ```
 
-This will output "Hello, World!" to the terminal.
+This will compile the source code, generate an executable named `hw` and automatically run it.
 
 ## Example
 
-Compile the Program:
+Compile and Run the Program:
 
 ```sh
-make
-```
-
-Run the Program:
-
-```sh
-./hw
+make run
 ```
 
 Output:
