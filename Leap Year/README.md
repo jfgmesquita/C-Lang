@@ -1,10 +1,10 @@
 # Leap Year Program
 
-This program cheack if the provided years are leap or not. The source code is in the file `ly.c`.
+This program cheack if the provided years are leap or not.
 
 ## Files
 
-- `ly.c`: The source code for the leap year program.
+- `ly.c`: The source code for the Leap Year program.
 - `Makefile`: The Makefile to compile and clean the program.
 
 ## Compilation
@@ -15,7 +15,7 @@ To compile the program, open a terminal and navigate to the directory containing
 make
 ```
 
-This will compile the source code and generate an executable named ly.
+This will compile the source code and generate an executable named `ly`.
 
 ## Usage
 
