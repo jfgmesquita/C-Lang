@@ -1,10 +1,10 @@
 # Bit Count Program
 
-This program counts the number of set bits (1s) in a given hexadecimal number. The source code is in the file `bc.c`.
+This program counts the number of set bits (1s) in a given hexadecimal number.
 
 ## Files
 
-- `bc.c`: The source code for the bit count program.
+- `bc.c`: The source code for the Bit Count program.
 - `Makefile`: The Makefile to compile and clean the program.
 
 ## Compilation
@@ -15,7 +15,7 @@ To compile the program, open a terminal and navigate to the directory containing
 make
 ```
 
-This will compile the source code and generate an executable named bc.
+This will compile the source code and generate an executable named `bc`.
 
 ## Usage
 
