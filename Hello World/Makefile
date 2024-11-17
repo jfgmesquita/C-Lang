@@ -6,5 +6,7 @@ hw.o: hw.c
 hw: hw.o
 	gcc hw.o -o hw
 
+run: hw
+
 clean:
 	rm -f hw.o hw
