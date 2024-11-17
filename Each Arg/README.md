@@ -1,6 +1,6 @@
 # Each Argument Program
 
-This program prints each command-line argument passed to it. The source code is in the file `ea.c`.
+This program prints each command-line argument passed to it.
 
 ## Files
 
@@ -15,7 +15,7 @@ To compile the program, open a terminal and navigate to the directory containing
 make
 ```
 
-This will compile the source code and generate an executable named ea.
+This will compile the source code and generate an executable named `ea`.
 
 ## Usage
 
