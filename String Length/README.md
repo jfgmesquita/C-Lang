@@ -1,10 +1,10 @@
 # String Length Program
 
-This program calculates the length of all strings passed as command-line arguments. The source code is in the file `sl.c`.
+This program calculates the length of all strings passed as command-line arguments.
 
 ## Files
 
-- `sl.c`: The source code for the string length program.
+- `sl.c`: The source code for the String Length program.
 - `Makefile`: The Makefile to compile and clean the program.
 
 ## Compilation
@@ -15,7 +15,7 @@ To compile the program, open a terminal and navigate to the directory containing
 make
 ```
 
-This will compile the source code and generate an executable named sl.
+This will compile the source code and generate an executable named `sl`.
 
 ## Usage
 
